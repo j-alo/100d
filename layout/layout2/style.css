@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.container {
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header,footer {
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+    background-color: lightgray;
+}
+
+section.hero {
+    width: 100%;
+    height: 330px;
+    border: 3px solid black;
+    background-color: lightblue;
+}
+
+section.island, section.feature {
+    height: 550px;
+    border: 3px solid black;
+}
+
+#first.island{
+    width: 33.13333%;
+    background-color: salmon;
+}
+
+#second.island {
+    width: 66.867%;
+    background-color: lightseagreen;
+}

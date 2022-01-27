@@ -1,0 +1,60 @@
+html, body {
+    background-color: #87ceeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1, h2 {
+    padding-top: 0;
+    align-self: center;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+ul > li {
+    padding: 4px;
+}
+
+a:visited, a:link {
+    color: #44d284;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+span {
+    font-size: 17px;
+    color: gray;
+    padding: 2px;
+    margin: 2px;
+    line-height: 1em;
+}
+
+p {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+
+.border-box {
+    width: 840px;
+    border: green;
+    border-style: solid;
+    border-width: 9px 9px 9px 9px;
+    padding: 35px;
+}
